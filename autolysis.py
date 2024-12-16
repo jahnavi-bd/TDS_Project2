@@ -16,7 +16,7 @@ import os
 import openai
 
 # Retrieve the API key from the environment variable
-api_key = os.getenv("AI_PROXY")
+api_key = os.getenv("AIPROXY_TOKEN")
 if not api_key:
     raise EnvironmentError("AI_PROXY is not set in the environment.")
 
